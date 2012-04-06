@@ -73,9 +73,19 @@ Ruby был написан, чтобы сделать работу програ�
    * показать что появились article
    * поменять что нибудь
 
-* WEB
-* HTTP
-* HTML
-* REST
+## Как работает Веб
+
+### Ключевые моменты
+
+* Request/Response cycle
+* DNS Lookup
+* Network ports
+
+### Ссылки
+
+* HTTP Status Codes: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+* Apache HTTP Server: http://httpd.apache.org/
+* Example HTTP Request/Response: http://www.jmarshall.com/easy/http/#requestline
+
 * RubyTry
 * Задание
