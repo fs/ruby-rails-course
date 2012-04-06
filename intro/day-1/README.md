@@ -129,5 +129,11 @@ Ruby был написан, чтобы сделать работу програ�
 * Apache HTTP Server: http://httpd.apache.org/
 * Example HTTP Request/Response: http://www.jmarshall.com/easy/http/#requestline
 
-* RubyTry
-* Задание
+## Как запустить код (1. Instructions & Interpreters)
+## Переменные (2. Variables)
+## Все объект (3. Objects, Attributes, and Methods)
+## Что такое строки (4. Strings)
+
+## RubyTry
+
+* Пройти до части "Hey, Summary #1 Already"
