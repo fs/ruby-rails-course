@@ -26,6 +26,8 @@
 Пожалуйста, заполните анкеты, чтобы могли лучше ориентироваться на ваш уровень, чтобы, возможно, подстроить соответствующим образом курс.
 
 * Интерактив с вопросами
+  * уточнить кто знаком с unix-like системами
+  * osx
 * История Ruby
   * balance of functional programming with imperative programming
   * more powerful than Perl, and more object-oriented than Python
@@ -40,14 +42,24 @@
     * Yukihiro Matsumoto (creator of Ruby and MRI)
     * David Heinemeier Hansson (creator of Ruby on Rails)
     * Yehuda Katz (Merb project)
-    * _why
+    * _why_
   * Notable projects
     * Rubygems
     * Rake
     * Rails
     * Sinatra
 * История Rails
+
 * Демонстрация Scaffold
+  создание проекта на основе уже существующих гемов.
+   * пройти мимо rvm, rubygems, bundler, git, github
+   * rails new
+   * продемонстрировать что приложение работает по 3000 порту
+   * rails generate scaffold article name:string  title:string body:text
+   * rm -f public/index.html
+   * показать что появились article
+   * поменять что нибудь
+
 * WEB
 * HTTP
 * HTML
