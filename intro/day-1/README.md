@@ -115,9 +115,49 @@ Ruby был написан, чтобы сделать работу програ�
 * Example HTTP Request/Response: http://www.jmarshall.com/easy/http/#requestline
 
 ## Как запустить код (1. Instructions & Interpreters)
+
+There are two ways to run Ruby code. You can write one or more instructions in a file then run that file through the Ruby interpreter. When you’re writing a "real" program, this is the way to do it. We might have a file named my_program.rb like this:
+
+* Слайд
+
+Then we could run the program like this:
+
+* Слайд
+
+Ruby is called a scripting language or an interpreted language because it doesn’t run on the computer’s hardware directly, it first goes through the Ruby interpreter. When you run ruby my_program.rb you’re actually loading the ruby program which in turn loads your my_program.rb.
+
+The second option is to use the Interactive Ruby Shell – IRB. When I’m programming I always have IRB open. IRB has all the same features as the regular Ruby interpreter, but it allows you to easily evaluate one or a handful of instructions and instantly see their results. I use IRB mostly for experimenting. In a regular program I might write a hundred lines of instructions. But if there’s one thing I’m not sure about I’ll flip over to IRB to test it out. Start IRB by opening a Terminal (Mac) or Command Prompt (Win) and typing irb.
+
 ## Переменные (2. Variables)
+
+Everything needs a name so we can refer to it. A variable, like in math, is just a name for a piece of data. In Ruby, variables are very flexible and can be changed at any time. Variables are assigned using a single equals sign (=) where the right side of the equals sign is evaluated first, then the value is assigned to the variable named on the left side of the equals. 
+
+* Слайд
+
+The first few lines are simple if you’ve worked with any programming language before, but the last few get interesting when combining strings and numbers.
+
 ## Все объект (3. Objects, Attributes, and Methods)
+
+In Ruby, everything is an object. Objects know information, called attributes, and they can do actions, called methods.
+
+For an example of an object, think about you as a human being. You have attributes like height, weight, and eye color. You have methods like "walk", "run", "wash dishes", and "daydream." Different kinds of objects have different attributes and methods. 
+
+A class is an abstract idea, it defines what all objects of that type can know and do. Think of the chair you’re sitting in. It’s not an abstract chair, it is an actual chair. We’d call this actual chair an instance - it is a realization of the idea chair. It has measurable attributes like height, color, weight. The class chair, on the other hand, has an abstract weight, color, and size – we can’t determine them ahead of time.
+
 ## Что такое строки (4. Strings)
+
+In Ruby a string is defined as a quote (") followed by zero or more letters, numbers, or symbols and followed by another quote ("). 
+
+Strings can be anything from "", the empty string, to really long sets of text. This whole tutorial, for instance, is stored in a string. Strings have a few important methods that we’ll use.
+
+* length
+  Call length on a string to get back the number of characters in the string. For instance "hello".length would give you back 5.
+* delete
+  Delete lets you specify a set of characters that should be removed from the original string. For instance, "hello".delete("l") would give you back "heo" after deleting all occurrences of "l", or "Good Morning!".delete("on") would give you "Gd Mrig"
+* gsub
+  Call gsub to replace a substring with a different string. For instance, "hello".gsub("ll","y yo") would give you back "hey yoo".
+* split
+  The split method is somewhat complex because it’s used to break a single string into a set of strings. For instance, I could call "Welcome to Ruby".split(" ") and it would find the two occurrences of " " (a blank space) and split the string at those points, giving you back a set like this: ["Welcome","to","Ruby"]
 
 ## RubyTry
 
