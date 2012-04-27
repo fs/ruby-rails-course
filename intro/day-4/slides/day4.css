@@ -1,0 +1,4 @@
+#preso { background: url(images/bg-pattern.png); }
+.slide { background: transparent; }
+/*.slide { background: transparent url(images/logo.png) no-repeat 10px 10px; }*/
+pre.sh_ruby { background-color: transparent; }
